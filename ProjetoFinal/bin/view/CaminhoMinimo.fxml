@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.CaminhoMinimoController">
+   <children>
+      <BorderPane layoutX="-146.0" layoutY="-156.0" prefHeight="700.0" prefWidth="800.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <TableView fx:id="tbl" prefHeight="597.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+              <columns>
+                <TableColumn fx:id="colNome" prefWidth="195.0" style="-fx-alignment: center;" text="Vértice" />
+                <TableColumn fx:id="colPath" prefWidth="195.0" style="-fx-alignment: center;" text="Caminho" />
+                  <TableColumn fx:id="colDistancia" prefWidth="195.0" style="-fx-alignment: center;" />
+                  <TableColumn fx:id="colProfundidade" prefWidth="195.0" style="-fx-alignment: center;" text="Auxiliar" />
+              </columns>
+               <BorderPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </BorderPane.margin>
+            </TableView>
+         </center>
+         <top>
+            <HBox prefHeight="49.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="Vértice de Origem">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" top="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="txtSource" onAction="#sourceDestinyEnd" prefHeight="25.0" prefWidth="50.0">
+                     <HBox.margin>
+                        <Insets left="10.0" top="25.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <RadioButton fx:id="ckDestiny" mnemonicParsing="false" onAction="#destinySN">
+                     <font>
+                        <Font name="Freestyle Script" size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="30.0" top="25.0" />
+                     </HBox.margin>
+                  </RadioButton>
+                  <Label text="Vértice de Destino">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" top="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="txtDestiny" disable="true" onAction="#sourceDestinyEnd" prefHeight="25.0" prefWidth="50.0">
+                     <HBox.margin>
+                        <Insets left="10.0" top="25.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Button mnemonicParsing="false" onAction="#sourceDestinyEnd" prefHeight="30.0" prefWidth="90.0" style="-fx-border-color: black; -fx-border-radius: 25; -fx-background-radius: 25;" text="Finalizar">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="25.0" top="25.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label fx:id="txtLabel">
+                     <font>
+                        <Font name="Freestyle Script" size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" top="15.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

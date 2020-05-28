@@ -1,0 +1,24 @@
+
+4squid:S1643‘"Use a StringBuilder instead.(ëñÌñ
+Csquid:S1659"'Declare "orientado" on a separate line.(èÖ¤ûÿÿÿÿ
+jsquid:S3776–"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(º¯ñ×
+Osquid:S1197Z"8Move the array designator from the variable to the type.(Ñ°‡›
+9squid:S1643Ò"Use a StringBuilder instead.(¹©ù÷úÿÿÿÿ
+4squid:S1643’"Use a StringBuilder instead.(İÄ…¡
+Lsquid:S1066ê"/Merge this if statement with the enclosing one.(¥ùÛùÿÿÿÿ
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ô§Ï¸
+4squid:S1643"Use a StringBuilder instead.(ûŠŞ‘
+nsquid:S3776X"RRefactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.(Ö–µÛÿÿÿÿÿ
+9squid:S1643õ"Use a StringBuilder instead.(»»Üˆúÿÿÿÿ
+?squid:S11486"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+osquid:S3776×"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ã³Š‰øÿÿÿÿ
+?squid:S1148E"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+qsquid:S2293Ù"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥›ĞÂ
+?squid:S1148P"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+9squid:S1643Ğ"Use a StringBuilder instead.(Êÿ¥×üÿÿÿÿ
+Lsquid:S1066‰"/Merge this if statement with the enclosing one.(´³½¢øÿÿÿÿ
+Usquid:S1197˜"8Move the array designator from the variable to the type.(¬Ò¾ùÿÿÿÿ
+jsquid:S3776ú"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.( û«
+Xsquid:S3457U"AFormat specifiers should be used instead of string concatenation.(£íÊº
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦ªæÔøÿÿÿÿ
+Xsquid:S3457U"AFormat specifiers should be used instead of string concatenation.(£íÊº
