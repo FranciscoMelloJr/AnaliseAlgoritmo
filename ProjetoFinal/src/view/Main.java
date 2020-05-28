@@ -6,7 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.fxml.FXMLLoader;
 
-public class Museu extends Application {
+public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
@@ -21,7 +21,7 @@ public class Museu extends Application {
 		}
 	}
 
-	public static void museu(String[] args) {
+	public static void main(String[] args) {
 		launch(args);
 	}
 }
